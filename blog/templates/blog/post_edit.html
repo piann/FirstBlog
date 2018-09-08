@@ -1,0 +1,35 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <h1> New Post </h1>
+    <form method="POST" class="post-form" novalidate>{% csrf_token %}
+        {% for hidden_field in forms.hidden_fields %}
+            {{hidden_field}}
+        {% endfor %}
+
+    {% if form.non_field_errors %}
+        <div class="alert alert-danger" role="alert">
+        {% for error in form.non_field_errors %}
+            {{ error }}
+        {% endfor %}
+        </div>
+    {% endif %}
+
+
+        {% for field in form.visible_fields %}
+            <div class = "form-group">
+                </br>
+                {{ field.label_tag }}
+                </br>
+                {{ field }}
+                {% if field.help_text %}
+                    <small class="form-text text-muted">{{ field.help_text }}</small>
+                {% endif %}
+                </br>
+                {% endfor %}
+                </br>
+                <button type="submit" class="btn btn-dark">Save</button>
+            </div>
+    </form>
+
+{% endblock %}
