@@ -1,0 +1,21 @@
+.content {
+    margin-left: 100px;
+    margin-top : 50px;
+
+}
+
+.page-header {
+    margin-left: 0px;
+    margin-top : 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+  }
+
+.grid-item {
+    grid-gap: 20px;
+}
+  
