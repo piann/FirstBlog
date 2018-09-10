@@ -4,18 +4,22 @@
 
 }
 
+.head-word {
+    font-size:30px;
+}
+
 .page-header {
     margin-left: 0px;
     margin-top : 0px;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 20px;
-  }
+    margin: 30px;
+}
 
-.grid-item {
-    grid-gap: 20px;
+.grid-container * {
+    padding:20px;
+    word-wrap: break-word;
+    background-color: green;
 }
   
